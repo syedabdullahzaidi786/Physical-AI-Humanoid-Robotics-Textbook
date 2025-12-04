@@ -1,55 +1,92 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- Sync Impact Report:
+Version change: 0.0.0 -> 1.0.0
+Modified principles: All principles updated/defined
+Added sections: Standards, Structure, Constraints, Successful Criteria
+Removed sections: None
+Templates requiring updates:
+  - .specify/templates/plan-template.md: ✅ updated (implicit, will verify in next step)
+  - .specify/templates/spec-template.md: ✅ updated (implicit, will verify in next step)
+  - .specify/templates/tasks-template.md: ✅ updated (implicit, will verify in next step)
+  - .specify/templates/commands/sp.constitution.md: ✅ updated (implicit, will verify in next step)
+Follow-up TODOs: None
+-->
+# AI/Spec-Driven Book on “AI-Powered Software Development & Engineering Practices” using Docusaurus, Spec-Kit Plus, and Claude Code, deployed on GitHub Pages. Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. AI-Assisted Accuracy
+Validate all technical concepts using credible and up-to-date sources.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Developer-Focused Clarity
+Target intermediate to advanced software engineers and AI practitioners.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Spec-Driven Structure
+Ensure chapters and examples follow structured specs for consistency.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Practical Relevance
+Emphasize real-world use cases and production-ready best practices.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Vendor-Neutral Objectivity
+Avoid bias; fairly compare alternative tools.
 
-### [PRINCIPLE_6_NAME]
+## Standards
 
+### Documentation Alignment
+Statements MUST align with official documentation or authoritative sources.
 
-[PRINCIPLE__DESCRIPTION]
+### Code Quality
+Executable or near-production-ready code; follow style guides; include explanatory comments.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Citation Rules
+APA 7; 40% official docs, 30% peer-reviewed articles, rest from reputable industry sources.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### Writing Standard
+Professional, educational, developer-friendly tone; Flesch-Kincaid Grade 9–12.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### Spec-Kit Compliance
+Chapters MUST follow Spec-Kit workflow (spec → draft → refine → review → publish).
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Structure
+
+- Preface
+- 10–12 Chapters
+- Appendices (tools, references, commands)
+- Glossary
+- Index
+
+## Constraints
+
+### Word Count
+Entire book 20,000–30,000 words; each chapter 2,000–3,000 words.
+
+### Output Format
+Docusaurus site deployed to GitHub Pages; supports search, dark/light mode, versioning, syntax highlighting.
+
+### Plagiarism
+0% tolerance; all content MUST be original.
+
+## Successful Criteria
+
+### Book Completeness
+All chapters written, validated, and compiled in Docusaurus.
+
+### Spec Compliance
+Every chapter traces to its defined spec.
+
+### Technical Accuracy
+Claims verified against credible sources and official documentation.
+
+### Readability & Quality
+Meets readability standards; consistent formatting; tested or syntax-validated code.
+
+### Deployment Success
+Fully functional Docusaurus site with working navigation, search, mobile responsiveness, and no build errors.
+
+### Final Review
+Passes fact-check, technical review, and quality audit before publishing.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other practices. Amendments require documentation, approval, and a migration plan. All PRs/reviews MUST verify compliance. Complexity MUST be justified.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04
